@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+:root {
+    --custom-property: #ffffff;
+    font-size: 62.5%;
+    Font-family: "DM Sans", sans-serif;;
+    Font-style: normal;
+}
+
+
+ul{
+    list-style-type:none;
+}
+.modal::backdrop{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+}
+.modal{
+    border-radius: 1rem;
+}
+.valid{
+    font-size: 1.5rem;
+    margin: 0rem auto;
+}
+.forflex{
+    display: flex;
+    flex-direction: column;
+    
+}
+.PicktureText{
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.HeaderText{
+    font-family: "Fredoka One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    width: 9.5rem;
+    height: 2.7rem;
+    margin-left: 0.9rem;
+}
+.wrapper {
+    max-width: 1216px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.content{
+    
+    display: flex;
+}
+
+.one{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    width: 179px;
+    height: 56px;
+    margin: 1.3rem auto 0 auto;
+    text-align: center;
+    font-size: 11px;
+}
+.one_{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    width: 179px;
+    height: 56px;
+    margin: 1.3rem auto 0 auto;
+    text-align: center;
+    font-size: 11px;
+}
+.h1{
+    font-family: "Fredoka One", sans-serif;
+    font-style: normal;
+    width: 285px;
+    height: 44px;
+    margin: 1.7rem auto 0 auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    
+}
+.two{
+    width: 179px;
+    height: 98px;
+    font-family: "DM Sans", sans-serif;
+    margin: 0 auto 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align: center;
+}
+.three{
+    width: 179px;
+    height: 70px;
+    font-family: "DM Sans", sans-serif;
+    margin: 1.8rem auto 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align: center;
+}
+.four{
+    width: 181px;
+    height: 56px;
+    font-family: "DM Sans", sans-serif;
+    margin: 0 auto 9.7rem auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align: center;
+}
+.ImgOne{
+    display: block;
+    width: 320px;
+    height: 303px;
+    
+    margin-left: 10rem;
+    margin: 0 auto 0 auto;
+}
+.ImgTwo{
+    display: block;
+    width: 285px;
+    height: 296px;
+    margin-left: 10rem;
+    margin: 0 auto 0 auto;
+}
+.nav{
+    display: none;
+    margin-left: 3.7rem;
+}
+.navul{
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+}
+.pfornav{
+    color: #0e0d0d;
+    text-decoration: none;
+    
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.pfornav:hover{
+    transition-duration: 0.5s;
+    transition-property: text-decoration;
+    text-decoration: underline #E8532E 4px;
+
+}
+legend{
+    Font-family: "DM Sans", sans-serif;;
+    Font-style: normal;
+    font-size: 11px;
+}
+.formsend {
+    /* Just to center the form on the page */
+    margin: 1.5rem 1.5rem;
+    
+    
+    /* To see the limits of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+.Video{
+    padding: 1em;
+    width: 15.8rem;
+    margin: 1rem auto;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+.div + div {
+    margin-top: 1em;
+}
+.send{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem 3.2rem;
+    margin: 0 auto;
+    gap: 0.8rem;
+    width:18.264rem;
+   
+  
+   
+    margin-top: 0.5rem;
+    margin-bottom: 2.9rem;
+    /* secondary */
+    background-color: #ffffff;
+    border-radius: 8.2rem;
+  
+    /* text */
+  
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: -0.03em;
+    
+  
+    /* white */
+    color:#000000;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    white-space: nowrap;
+    text-decoration: none;
+    
+  }
+.labelsend {
+    /* To make sure that all label have the same size and are properly align */
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    font-size: 11px;
+    margin: 1.5rem auto;
+}
+.send:hover{
+    transition-duration: 0.5s;
+    transition-property: background-color;
+    background-color: #c7c6c6;
+
+    transform: scale(1.1);
+}
+.send:active{
+    background: #c7c6c6;
+    transform: scale(0.9);
+}
+.logo{
+    width: 27px;
+    height: 51px;
+}
+.DisplayNone{
+    display: none;
+}
+.LogoImg{
+    display: initial;
+    fill: #E8532E;
+}
+::selection {
+    background-color: #c74c1b;
+}
+@media all and (min-width: 690px) {
+
+    .nav{
+      display: initial;
+    }
+    .LogoImg{
+        display: none;
+    }
+    .one{
+        width: 467px;
+        height: 78px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 12.4rem;
+    }
+    .one_{
+        width: 467px;
+        height: 78px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 12.4rem;
+    }
+    .h1{
+        width: 518px;
+        height: 88px;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .two{
+        
+        width: 420px;
+        height: 156px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .three{
+        width: 420px;
+        height: 104px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 10rem;
+    }
+    .four{
+        width: 420px;
+        height: 78px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 2rem;
+    }
+    .formsend {
+        /* Just to center the form on the page */
+        margin: auto auto;
+        width: 593px;
+      
+        /* To see the limits of the form */
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+    }
+    .Video{
+        padding: 1em;
+        width: 40.8rem;
+        margin: 1rem auto;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+    }
+    .labelsend{
+        font-size: 15px;
+    }
+    legend{
+        Font-family: "DM Sans", sans-serif;;
+        Font-style: normal;
+        font-size: 15px;
+    }
+    .logo{
+        width: 35px;
+        height: 67px;
+    }
+    .HeaderText{
+       
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        width: 139px;
+        height: 41px;
+        margin-left: 0.9rem;
+    }
+}
+@media all and (min-width: 1216px) {
+
+    .ImgOne{
+        position: absolute;
+        left: 1.3rem;
+        top: 45.4rem;
+        width: 361px;
+        height: 339.07px;
+        
+        
+        
+        margin: 0 0 0 0;
+    }
+    .ImgTwo{
+        position: absolute;
+        right: 1.3rem;
+        top: 76.3rem;
+        width: 343px;
+        height: 376px;
+        
+
+
+        
+        
+        margin: 0 0 0 0;
+    }
+}
