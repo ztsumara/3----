@@ -12,23 +12,26 @@ openModal.addEventListener('click', () =>{
 })
 
 
-modal.addEventListener('click', (e) =>{
-    if(e.target === modal) {
+modal.addEventListener('click', (event) =>{
+    if(event.target === modal) {
         modal.close()
     }
 })
 showpass.addEventListener('pointerdown', () =>{document.querySelector('.password').type = "text"})
 showpass.addEventListener('pointerup', () =>{document.querySelector('.password').type = "password"})
-form.addEventListener("submit", (e) =>{
+form.addEventListener("submit", (event) =>{
     email = inputmeil.value
     pass=inputpass.value
     console.table({email: email,password:pass});
-    e.preventDefault()
+    event.preventDefault()
 })
 inputmeil.addEventListener("blur", ()=>{
     if(inputmeil.validity.typeMismatch){
         valid.textContent = "Bad Email"
         inputmeil.setCustomValidity("Bad Email")
+    }
+    else if(inputmeil.value==""){
+        valid.textContent="Valid check"
     }
     else{
         valid.textContent = ""
